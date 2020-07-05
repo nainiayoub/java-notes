@@ -7,7 +7,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * What are the different types of memory areas allocated by JVM?
     
 ## What is the difference between JDK and JRE?
-<img src="https://i.stack.imgur.com/CBNux.png" alt="Description of Java Conceptual Diagram">
+<img src="https://i.stack.imgur.com/CBNux.png" alt="Description of Java Conceptual Diagram"><br/>
 ___JRE (Java Runtime Environment)___
 * The `JRE` is used to run your Java program. It includes the `JVM`, a set of libraries that come with Java as well as `Java Launcher`.
 * The `JRE` doesn't include any development tools.
