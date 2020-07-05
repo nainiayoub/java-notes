@@ -1,5 +1,6 @@
 ## Introduction
 This repository contains my personnal notes and questions, that I have managed to answer, related to the general-purpose programming language __JAVA__. These notes will cover ___JAVA Basics___, ___OOP___, ___Inheritance___ and much more. This repository is intended to be used as a reminder of JAVA concepts.
+## Table of contents
 * [Introduction](#Introduction)
 * __Java Basics__
     * [What is the difference between JDK and JRE?](#what-is-the-difference-between-jdk-and-jre)
