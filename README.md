@@ -17,4 +17,6 @@ This repository contains my personnal notes and questions, that I have managed t
 * The `JDK` is basically the tools that will take your Java source code and convert it into a format that the `JRE` and the `JVM` can execute.
 * The `JDK` comes bundled with a Java Runtime Edition as shown in the Image above.
 
+Back to Top :point_up: [Table of contents](#table-of-contents)
+
 ## What is Java Virtual Machine (JVM)?
