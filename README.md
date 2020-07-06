@@ -6,6 +6,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [What is the difference between JDK and JRE?](#what-is-the-difference-between-jdk-and-jre)
     * [What is Java Virtual Machine (JVM)?](#what-is-java-virtual-machine-jvm)
     * [What are the different types of memory areas allocated by JVM?](#what-are-the-different-types-of-memory-areas-allocated-by-jvm)
+    * [What is JIT compiler?](#what-is-jit-compiler)
     
 ## What is the difference between JDK and JRE?
 <img src="https://i.stack.imgur.com/CBNux.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -35,3 +36,5 @@ All objects created in Java are stored in `JVM (Java virtual machine)`. JVM memo
 3. Stack Memory.
 4. Program Counter register.
 5. Native method Stacks.
+
+## What is JIT compiler?
