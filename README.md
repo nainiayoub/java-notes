@@ -5,7 +5,7 @@ This repository contains my personnal notes and questions, that I have managed t
 * __Java Basics__
     * [What is the difference between JDK and JRE?](#what-is-the-difference-between-jdk-and-jre)
     * [What is Java Virtual Machine (JVM)?](#what-is-java-virtual-machine-jvm)
-    * What are the different types of memory areas allocated by JVM?
+    * [What are the different types of memory areas allocated by JVM?](#what-are-the-different-types-of-memory-areas-allocated-by-jvm)
     
 ## What is the difference between JDK and JRE?
 <img src="https://i.stack.imgur.com/CBNux.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -28,3 +28,10 @@ Back to Top :point_up: [Table of contents](#table-of-contents)
 
 Back to Top :point_up: [Table of contents](#table-of-contents)
 
+## What are the different types of memory areas allocated by JVM?
+All objects created in Java are stored in `JVM (Java virtual machine)`. JVM memory is basically divided into the following parts:
+1. Method Area.
+2. Heap Memory.
+3. Stack Memory.
+4. Program Counter register.
+5. Native method Stacks.
