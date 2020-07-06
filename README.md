@@ -25,3 +25,6 @@ Back to Top :point_up: [Table of contents](#table-of-contents)
 * The `JVM` is a part of [Java Runtime Environment (JRE)](#jre-(java-runtime-environment)), which means that it enables a computer to run Java programs as well as programs written in other languages that are also compiled to Java bytecode.
 * The `JVM` is the one that actually calls the main method present in a java code.
 * The `JVM` resides on the RAM.
+
+Back to Top :point_up: [Table of contents](#table-of-contents)
+
