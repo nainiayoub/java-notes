@@ -4,7 +4,7 @@ This repository contains my personnal notes and questions, that I have managed t
 * [Introduction](#Introduction)
 * __Java Basics__
     * [What is the difference between JDK and JRE?](#what-is-the-difference-between-jdk-and-jre)
-    * [What is Java Virtual Machine (JVM)?](#what-is-java-virtual-machine-(jvm))
+    * [What is Java Virtual Machine (JVM)?](#what-is-java-virtual-machine-jvm)
     * What are the different types of memory areas allocated by JVM?
     
 ## What is the difference between JDK and JRE?
