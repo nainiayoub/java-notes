@@ -18,7 +18,7 @@ This repository contains my personnal notes and questions, that I have managed t
 * The `JDK` is basically the tools that will take your Java source code and convert it into a format that the `JRE` and the `JVM` can execute.
 * The `JDK` comes bundled with a Java Runtime Edition as shown in the Image above.
 
-Back to Top :point_up: [Table of contents](#table-of-contents)
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## What is Java Virtual Machine (JVM)?
 <img src="https://math.hws.edu/javanotes/c1/overview-fig3.png" alt="Java Virtual Machine"><br/>
@@ -27,7 +27,7 @@ Back to Top :point_up: [Table of contents](#table-of-contents)
 * The `JVM` is the one that actually calls the main method present in a java code.
 * The `JVM` resides on the RAM.
 
-Back to Top :point_up: [Table of contents](#table-of-contents)
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## What are the different types of memory areas allocated by JVM?
 All objects created in Java are stored in `JVM (Java virtual machine)`. JVM memory is basically divided into the following parts:
