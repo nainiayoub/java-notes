@@ -9,7 +9,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [What is JIT compiler?](#what-is-jit-compiler)
     
 ## What is the difference between JDK and JRE?
-<img src="https://i.stack.imgur.com/CBNux.png" alt="Description of Java Conceptual Diagram"><br/>
+<img src="https://lh3.googleusercontent.com/proxy/3mROJt4It2-QP2JQb5aW4fCgXa1HzvKioZTC734RpDnSKVHQ2WUvWyF0qX8jabPJOe28QxxeYVmSbUTu04C9ATbIjOmDkX5CeaNVm3b7ajCiKQk4msEnWY2UU3HykPkd" alt="Description of Java Conceptual Diagram"><br/>
 #### JRE (Java Runtime Environment)
 * The `JRE` is used to run your Java program. It includes the `JVM`, a set of libraries that come with Java as well as `Java Launcher`.
 * The `JRE` doesn't include any development tools.
