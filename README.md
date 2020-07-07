@@ -41,3 +41,5 @@ All objects created in Java are stored in `JVM (Java virtual machine)`. JVM memo
 <img src="https://www.edureka.co/blog/wp-content/uploads/2019/06/JIT-Compiler-JIT-in-Java-Edureka-2.png" alt="Just-In-Time compiler" width="50%"><br/>
 * The `Just-In-Time (JIT) compiler` is a an essential part of the JRE, that improves the performance of Java applications by compiling platform-neutral Java bytecode into native machine code at run time.
 * Without `the JIT`, the JVM has to interpret the bytecodes itself - a process that requires extra CPU and memory.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
