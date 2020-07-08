@@ -45,4 +45,9 @@ All objects created in Java are stored in `JVM (Java virtual machine)`. JVM memo
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
-# How Java platform is different from other platforms?
+## How Java platform is different from other platforms?
+* Most platforms can be described as a combination of the operating system and underlying hardware. The Java platform differs from most other platforms in that it's a software-only platform that runs on top of other hardware-based platforms.
+* The Java platform has two components:
+   * [The Java Virtual Machine](#what-is-java-virtual-machine-jvm).
+   * The Java Application Programming Interface (API).
+
