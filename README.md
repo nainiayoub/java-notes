@@ -52,6 +52,9 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * The Java platform has two components:
    * [The Java Virtual Machine](#what-is-java-virtual-machine-jvm).
    * The Java Application Programming Interface (API).
+   * Java is platform independent (WORA).
    
 ## Why Java is 'write once and run anywhere' language?
+* Java applications are called `WORA (Write Once Run Anywhere)`. This means Java can be developed on any device, compiled into a standard bytecode and be expected to run on any device equipped with a JVM.
+*  __Java is portable__ , means that you can run Java bytecode on any hardware that has a compliant [JVM (Java Virtual Machine)](#what-is-java-virtual-machine-jvm).
 
