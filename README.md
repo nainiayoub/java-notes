@@ -8,6 +8,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [What are the different types of memory areas allocated by JVM?](#what-are-the-different-types-of-memory-areas-allocated-by-jvm)
     * [What is JIT compiler?](#what-is-jit-compiler)
     * [How Java platform is different from other platforms?](#how-java-platform-is-different-from-other-platforms)
+    * [Why Java is 'write once and run anywhere' language?](#why-java-is-write-once-and-run-anywhere-language)
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -51,4 +52,6 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * The Java platform has two components:
    * [The Java Virtual Machine](#what-is-java-virtual-machine-jvm).
    * The Java Application Programming Interface (API).
+   
+## Why Java is 'write once and run anywhere' language?
 
