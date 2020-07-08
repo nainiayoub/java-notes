@@ -7,6 +7,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [What is Java Virtual Machine (JVM)?](#what-is-java-virtual-machine-jvm)
     * [What are the different types of memory areas allocated by JVM?](#what-are-the-different-types-of-memory-areas-allocated-by-jvm)
     * [What is JIT compiler?](#what-is-jit-compiler)
+    * [How Java platform is different from other platforms?](#how-java-platform-is-different-from-other-platforms)
     
 ## What is the difference between JDK and JRE?
 <img src="https://lh3.googleusercontent.com/proxy/3mROJt4It2-QP2JQb5aW4fCgXa1HzvKioZTC734RpDnSKVHQ2WUvWyF0qX8jabPJOe28QxxeYVmSbUTu04C9ATbIjOmDkX5CeaNVm3b7ajCiKQk4msEnWY2UU3HykPkd" alt="Description of Java Conceptual Diagram"><br/>
@@ -38,8 +39,10 @@ All objects created in Java are stored in `JVM (Java virtual machine)`. JVM memo
 5. Native method Stacks.
 
 ## What is JIT compiler?
-<img src="https://www.edureka.co/blog/wp-content/uploads/2019/06/JIT-Compiler-JIT-in-Java-Edureka-2.png" alt="Just-In-Time compiler" width="50%"><br/>
+<img src="https://www.edureka.co/blog/wp-content/uploads/2019/06/JIT-Compiler-JIT-in-Java-Edureka-2.png" alt="Just-In-Time compiler" width="70%"><br/>
 * The `Just-In-Time (JIT) compiler` is a an essential part of the JRE, that improves the performance of Java applications by compiling platform-neutral Java bytecode into native machine code at run time.
 * Without `the JIT`, the JVM has to interpret the bytecodes itself - a process that requires extra CPU and memory.
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+# How Java platform is different from other platforms?
