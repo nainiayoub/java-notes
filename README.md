@@ -51,3 +51,4 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
    * [The Java Virtual Machine](#what-is-java-virtual-machine-jvm).
    * The Java Application Programming Interface (API).
 
+<img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif" alt="Java platform">
