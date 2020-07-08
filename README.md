@@ -39,16 +39,16 @@ All objects created in Java are stored in `JVM (Java virtual machine)`. JVM memo
 5. Native method Stacks.
 
 ## What is JIT compiler?
-<img src="https://www.edureka.co/blog/wp-content/uploads/2019/06/JIT-Compiler-JIT-in-Java-Edureka-2.png" alt="Just-In-Time compiler" width="70%"><br/>
+<img src="https://www.edureka.co/blog/wp-content/uploads/2019/06/JIT-Compiler-JIT-in-Java-Edureka-2.png" alt="Just-In-Time compiler" width="60%"><br/>
 * The `Just-In-Time (JIT) compiler` is a an essential part of the JRE, that improves the performance of Java applications by compiling platform-neutral Java bytecode into native machine code at run time.
 * Without `the JIT`, the JVM has to interpret the bytecodes itself - a process that requires extra CPU and memory.
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## How Java platform is different from other platforms?
+<img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif" alt="Java platform"><br/>
 * Most platforms can be described as a combination of the operating system and underlying hardware. The Java platform differs from most other platforms in that it's a software-only platform that runs on top of other hardware-based platforms.
 * The Java platform has two components:
    * [The Java Virtual Machine](#what-is-java-virtual-machine-jvm).
    * The Java Application Programming Interface (API).
 
-<img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif" alt="Java platform">
