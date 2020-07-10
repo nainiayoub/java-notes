@@ -11,8 +11,8 @@ This repository contains my personnal notes and questions, that I have managed t
     * [Why Java is 'write once and run anywhere' language?](#why-java-is-write-once-and-run-anywhere-language)
     * [How does ClassLoader work in Java?](#how-does-classloader-work-in-java)
     * [Is ‘main’, used for main method, a keyword in Java?](#is-main-used-for-main-method-a-keyword-in-java)
-    * [Can we write main method as public void static instead of public static
-void?](#can-we-write-main-method-as-public-void-static-instead-of-public-static-void)
+    * [Can we write main method as static public void instead of public static
+void?](#can-we-write-main-method-as-static-public-void-instead-of-public-static-void)
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
