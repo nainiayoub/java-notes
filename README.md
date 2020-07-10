@@ -10,6 +10,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [How Java platform is different from other platforms?](#how-java-platform-is-different-from-other-platforms)
     * [Why Java is 'write once and run anywhere' language?](#why-java-is-write-once-and-run-anywhere-language)
     * [How does ClassLoader work in Java?](#how-does-classloader-work-in-java)
+    * [Is ‘main’, used for main method, a keyword in Java?](#is-main-used-for-main-method-a-keyword-in-java)
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -72,6 +73,7 @@ Java class loaders are used to load classes at runtime. ClassLoader in Java work
 
 Correct understanding of class loader is a must to resolve issues like `NoClassDefFoundError` in Java and `java.lang.ClassNotFoundException`, which are related to class loading.
 
+## Is ‘main’, used for main method, a keyword in Java?
 
 
 
