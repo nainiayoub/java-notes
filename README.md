@@ -11,6 +11,8 @@ This repository contains my personnal notes and questions, that I have managed t
     * [Why Java is 'write once and run anywhere' language?](#why-java-is-write-once-and-run-anywhere-language)
     * [How does ClassLoader work in Java?](#how-does-classloader-work-in-java)
     * [Is ‘main’, used for main method, a keyword in Java?](#is-main-used-for-main-method-a-keyword-in-java)
+    * [Can we write main method as public void static instead of public static
+void?](#can-we-write-main-method-as-public-void-static-instead-of-public-static-void)
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -76,5 +78,7 @@ Correct understanding of class loader is a must to resolve issues like `NoClassD
 ## Is ‘main’, used for main method, a keyword in Java?
 * In Java, __`main`__ is the name of Java main method. It is the identifier that the JVM looks for as the starting point of the java program. __It’s not a keyword__. 
 
-
+## Can we write main method as static public void instead of public static void?
+* If you write __`static public void main`__ instead of __`public static void main`__, then it will make no difference. Program compiles properly and runs. But if you change the sequence of main, then it will you give a compiler error.
+* In Java, we can declare access modifiers in any order, the method name comes last, the return type comes second to last and then after it's our choice. But it's recommended to put access modifier (public, private and protected) at the forefront as per Java coding standards.
 
