@@ -74,7 +74,7 @@ Java class loaders are used to load classes at runtime. ClassLoader in Java work
 Correct understanding of class loader is a must to resolve issues like `NoClassDefFoundError` in Java and `java.lang.ClassNotFoundException`, which are related to class loading.
 
 ## Is ‘main’, used for main method, a keyword in Java?
-
+* In Java, __`main`__ is the name of Java main method. It is the identifier that the JVM looks for as the starting point of the java program. __It’s not a keyword__. 
 
 
 
