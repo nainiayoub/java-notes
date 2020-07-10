@@ -62,3 +62,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## How does ClassLoader work in Java?
+### What is ClassLoader in Java?
+ClassLoader in Java is a class that is used to load `class files in Java`. Java code is compiled into a class file by `javac compiler` and JVM executes Java program, by executing byte codes written in the class file. __ClassLoader is responsible for loading class files from file systems, networks, or any other source__. 
+### How does it work?
+
