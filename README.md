@@ -9,7 +9,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [What is JIT compiler?](#what-is-jit-compiler)
     * [How Java platform is different from other platforms?](#how-java-platform-is-different-from-other-platforms)
     * [Why Java is 'write once and run anywhere' language?](#why-java-is-write-once-and-run-anywhere-language)
-    * [How does ClassLoader work in Java?](how-does-classloader-work-in-java)
+    * [How does ClassLoader work in Java?](#how-does-classloader-work-in-java)
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
