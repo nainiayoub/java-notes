@@ -9,6 +9,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [What is JIT compiler?](#what-is-jit-compiler)
     * [How Java platform is different from other platforms?](#how-java-platform-is-different-from-other-platforms)
     * [Why Java is 'write once and run anywhere' language?](#why-java-is-write-once-and-run-anywhere-language)
+    * [How does ClassLoader work in Java?](how-does-classloader-work-in-java)
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -58,3 +59,6 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Java applications are called `WORA (Write Once Run Anywhere)`. This means Java can be developed on any device, compiled into a standard bytecode and be expected to run on any device equipped with a JVM.
 *  __Java is portable__, means that you can run Java bytecode on any hardware that has a compliant [JVM (Java Virtual Machine)](#what-is-java-virtual-machine-jvm).
 
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+## How does ClassLoader work in Java?
