@@ -65,4 +65,14 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ### What is ClassLoader in Java?
 ClassLoader in Java is a class that is used to load `class files in Java`. Java code is compiled into a class file by `javac compiler` and JVM executes Java program, by executing byte codes written in the class file. __ClassLoader is responsible for loading class files from file systems, networks, or any other source__. 
 ### How does it work?
+Java class loaders are used to load classes at runtime. ClassLoader in Java works on three principles: `delegation, visibility, and uniqueness`.
+* `Delegation principle` forward request of class loading to parent class loader and only loads the class if the parent is not able to find or load the class.
+* `Visibility principle` allows child class loader to see all the classes loaded by parent ClassLoader, but parent class loader can not see classes loaded by a child.
+* `Uniqueness principle` allows one to load a class exactly once, which is basically achieved by delegation and ensures that child ClassLoader doesn't reload the class already loaded by a parent.
+
+Correct understanding of class loader is a must to resolve issues like `NoClassDefFoundError` in Java and `java.lang.ClassNotFoundException`, which are related to class loading.
+
+
+
+
 
