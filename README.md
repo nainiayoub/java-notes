@@ -13,6 +13,8 @@ This repository contains my personnal notes and questions, that I have managed t
     * [Is ‘main’, used for main method, a keyword in Java?](#is-main-used-for-main-method-a-keyword-in-java)
     * [Can we write main method as static public void instead of public static
 void?](#can-we-write-main-method-as-static-public-void-instead-of-public-static-void)
+    * [In Java, if we do not specify any value for local variables, then what
+will be the default value of the local variables?]()
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -82,3 +84,6 @@ Correct understanding of class loader is a must to resolve issues like `NoClassD
 * If you write `static public void main` instead of `public static void main`, then it will make no difference. Program compiles properly and runs. But if you change the sequence of main, then it will you give a compiler error.
 * In Java, __we can declare access modifiers in any order__, the method name comes last, the return type comes second to last and then after it's our choice. But __it's recommended to put access modifier (public, private and protected) at the forefront as per Java coding standards__.
 
+## In Java, if we do not specify any value for local variables, then what will be the default value of the local variables?
+* There is no default value for local variables, so local variables should be declared and an initial value should be assigned before the first use.
+* Using a local variable without initializing would give an error at the time of compilation.
