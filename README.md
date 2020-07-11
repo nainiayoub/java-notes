@@ -14,7 +14,7 @@ This repository contains my personnal notes and questions, that I have managed t
     * [Can we write main method as static public void instead of public static
 void?](#can-we-write-main-method-as-static-public-void-instead-of-public-static-void)
     * [In Java, if we do not specify any value for local variables, then what
-will be the default value of the local variables?]()
+will be the default value of the local variables?](#in-java-if-we-do-not-specify-any-value-for-local-variables-then-what-will-be-the-default-value-of-the-local-variables)
     
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
