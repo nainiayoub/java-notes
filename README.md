@@ -16,7 +16,8 @@ void?](#can-we-write-main-method-as-static-public-void-instead-of-public-static-
     * [In Java, if we do not specify any value for local variables, then what
 will be the default value of the local variables?](#in-java-if-we-do-not-specify-any-value-for-local-variables-then-what-will-be-the-default-value-of-the-local-variables)
     * [What is the difference between byte and char data types in Java?](#what-is-the-difference-between-byte-and-char-data-types-in-java)
-    
+* __Object-Oriented Programming System(OOPs)__
+
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
 #### JRE (Java Runtime Environment)
@@ -97,5 +98,5 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## What is the difference between byte and char data types in Java?
 1. The first and foremost difference between byte and char are that __byte is a signed data type while char is an unsigned data type__.
 2. From above fact, we can deduce another difference between byte and char. __Byte can represent negative values but char values are always positive__.
-3. Another difference between char and byte is that char is a larger data type than a byte. __The range of byte is between -128 to 127 but the range of char is from 0 to 65535__, because `byte is a signed 8-bit data type and char is an unsigned 16-bit data type hence, its maximum value is 2 ^ 16 - 1 which is 65535`.
+3. Another difference between char and byte is that char is a larger data type than a byte. __The range of byte is between -128 to 127 but the range of char is from 0 to 65535__, because byte is a signed 8-bit data type and char is an unsigned 16-bit data type hence, its maximum value is 2 ^ 16 - 1 which is 65535.
 
