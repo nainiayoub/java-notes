@@ -19,6 +19,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 * __Object-Oriented Programming System (OOPs)__
     * [What are the main principles of Object Oriented Programming?](#what-are-the-main-principles-of-object-oriented-programming)
 
+# Java Basics
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
 #### JRE (Java Runtime Environment)
