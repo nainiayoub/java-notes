@@ -104,4 +104,4 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 # Object-Oriented Programming System (OOPs)
 ## What are the main principles of Object Oriented Programming?
-* There are 4 major principles that make an language Object Oriented. These are __Encapsulation__, __Data Abstraction__, __Polymorphism__ and __Inheritance__. 
+* There are 4 major principles that make a language Object Oriented. These are __Encapsulation__, __Data Abstraction__, __Polymorphism__ and __Inheritance__. 
