@@ -18,6 +18,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is the difference between byte and char data types in Java?](#what-is-the-difference-between-byte-and-char-data-types-in-java)
 * __Object-Oriented Programming System (OOPs)__
     * [What are the main principles of Object Oriented Programming?](#what-are-the-main-principles-of-object-oriented-programming)
+    * [What is the difference between Object Oriented Programming language and Object Based Programming language?](#what-is-the-difference-between-object-oriented programming-language-and-object-based-programming-language)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -105,3 +106,14 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 # Object-Oriented Programming System (OOPs)
 ## What are the main principles of Object Oriented Programming?
 * There are 4 major principles that make a language Object Oriented. These are __Encapsulation__, __Data Abstraction__, __Polymorphism__ and __Inheritance__. 
+
+## What is the difference between Object-Oriented Programming language and Object Based Programming language?
+In computer science, the term object-based has two different senses:
+* A limited version of object-oriented programming, where one or more of the following restrictions applies: 
+   * There is no implicit inheritance.
+   * There is no polymorphism. 
+   * Only a very reduced subset of the available values are objects (typically the GUI components).
+* Prototype-based systems (that is, those based on "prototype" objects that are not instances of any class).
+
+The core difference between the two is that an object-oriented programming language has the features that an object-oriented paradigm must have in order to be considered an object-oriented programming language. While object based programming languages are __Prototype-based__ such as JavaScript, which is for now, isn't an actual object-oriented programming language because it lacks actual polymorphism and inheritance.
+
