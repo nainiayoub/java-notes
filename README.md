@@ -115,5 +115,5 @@ In computer science, the term object-based has two different senses:
    * Only a very reduced subset of the available values are objects (typically the GUI components).
 * Prototype-based systems (that is, those based on "prototype" objects that are not instances of any class).
 
-The core difference between the two is that an object-oriented programming language has the features that an object-oriented paradigm must have in order to be considered an object-oriented programming language. While object based programming languages are __Prototype-based__ such as JavaScript, which is for now, isn't an actual object-oriented programming language because it lacks actual polymorphism.
+The core difference between the two is that an object-oriented programming language has the features that an object-oriented paradigm must have in order to be considered an object-oriented programming language. While object based programming languages are __Prototype-based__ where one or more of OOP principles are lacking.
 
