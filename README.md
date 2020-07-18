@@ -19,6 +19,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 * __Object-Oriented Programming System (OOPs)__
     * [What are the main principles of Object Oriented Programming?](#what-are-the-main-principles-of-object-oriented-programming)
     * [What is the difference between Object Oriented Programming language and Object Based Programming language?](#what-is-the-difference-between-object-oriented-programming-language-and-object-based-programming-language)
+    * [In Java what is the default value of an object reference defined as an instance variable in an Object?](#in-java-what-is-the-default-value-of-an-object-reference-defined-as-an-instance-variable-in-an-object)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -116,4 +117,7 @@ In computer science, the term object-based has two different senses:
 * Prototype-based systems (that is, those based on "prototype" objects that are not instances of any class).
 
 The core difference between the two is that an object-oriented programming language has the features that an object-oriented paradigm must have in order to be considered an object-oriented programming language. While object based programming languages are __Prototype-based__ where one or more of OOP principles are lacking.
+
+## In Java what is the default value of an object reference defined as an instance variable in an Object?
+* __The object references are all initialized to null in Java__. However in order to do anything useful with these references, you must set them to a valid object, else you will get `NullPointerExceptions` everywhere you try to use such default initialized references.
 
