@@ -20,6 +20,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What are the main principles of Object Oriented Programming?](#what-are-the-main-principles-of-object-oriented-programming)
     * [What is the difference between Object Oriented Programming language and Object Based Programming language?](#what-is-the-difference-between-object-oriented-programming-language-and-object-based-programming-language)
     * [In Java what is the default value of an object reference defined as an instance variable in an Object?](#in-java-what-is-the-default-value-of-an-object-reference-defined-as-an-instance-variable-in-an-object)
+    * [Why do we need default constructor in Java classes?](#why-do-we-need-default-constructor-in-java-classes)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -123,3 +124,6 @@ The core difference between the two is that an object-oriented programming langu
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
+## Why do we need default constructor in Java classes?
+* The compiler automatically provides a public no-argument constructor for any class without constructors. This is called the __default constructor__.
+* This default constructor initializes the variables of the class with their respective default values (null for objects, 0.0 for float and double, false for boolean, 0 for byte, short, int and, long).
