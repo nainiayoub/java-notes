@@ -22,6 +22,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [In Java what is the default value of an object reference defined as an instance variable in an Object?](#in-java-what-is-the-default-value-of-an-object-reference-defined-as-an-instance-variable-in-an-object)
     * [Why do we need default constructor in Java classes?](#why-do-we-need-default-constructor-in-java-classes)
     * [Can we inherit a Constructor?](#can-we-inherit-a-constructor)
+    * [Why constructors cannot be final, static, or abstract in Java?](#why-constructors-cannot-be-final-static-or-abstract-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -132,3 +133,8 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## Can we inherit a Constructor?
 * Constructors are not inherited. They are called implicitly or explicitly by the child constructor.
 * A subclass inherits all the members (fields, methods, and nested classes) from its superclass. Constructors are not members, so they are not inherited by subclasses, but the constructor of the superclass can be invoked from the subclass.
+
+## Why constructors cannot be final, static, or abstract in Java?
+* Constructors can't be final because when we say a method is final that means it can't be overriden. Constructors by Java rules can't be overriden anyways so there is no point in making constructors as final.
+* Static methods belong to the class. Whereas a Constructor belongs to the object and called when we use the new operator to create an instance. Since a constructor is not class property, it makes sense that it’s not allowed to be static. (Constructors are implicitly final and static, you don’t need to declare it again)
+* Constructors can’t be abstract because when you set a method as ‘abstract’, it means method doesn't have any body and you want to implement it at another time in a child class, but the constructor is called implicitly when the new keyword is used so it can’t lack a body.
