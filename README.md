@@ -16,6 +16,7 @@ void?](#can-we-write-main-method-as-static-public-void-instead-of-public-static-
     * [In Java, if we do not specify any value for local variables, then what
 will be the default value of the local variables?](#in-java-if-we-do-not-specify-any-value-for-local-variables-then-what-will-be-the-default-value-of-the-local-variables)
     * [What is the difference between byte and char data types in Java?](#what-is-the-difference-between-byte-and-char-data-types-in-java)
+    
 * __Object-Oriented Programming System (OOPs)__
     * [What are the main principles of Object Oriented Programming?](#what-are-the-main-principles-of-object-oriented-programming)
     * [What is the difference between Object Oriented Programming language and Object Based Programming language?](#what-is-the-difference-between-object-oriented-programming-language-and-object-based-programming-language)
@@ -23,6 +24,10 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Why do we need default constructor in Java classes?](#why-do-we-need-default-constructor-in-java-classes)
     * [Can we inherit a Constructor?](#can-we-inherit-a-constructor)
     * [Why constructors cannot be final, static, or abstract in Java?](#why-constructors-cannot-be-final-static-or-abstract-in-java)
+ 
+* __Inheritance__
+    * [Explain the concept of Inheritance?](#explain-the-concept-of-inheritance)
+    
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -138,3 +143,9 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Constructors can't be final because when we say a method is final that means it can't be overriden. Constructors by Java rules can't be overriden anyways so there is no point in making constructors as final.
 * Static methods belong to the class. Whereas a Constructor belongs to the object and called when we use the new operator to create an instance. Since a constructor is not class property, it makes sense that it’s not allowed to be static. (Constructors are implicitly final and static, you don’t need to declare it again)
 * Constructors can’t be abstract because when you set a method as ‘abstract’, it means method doesn't have any body and you want to implement it at another time in a child class, but the constructor is called implicitly when the new keyword is used so it can’t lack a body.
+
+# Inheritance
+## Explain the concept of Inheritance?
+* Inheritance is a proces in which one class acquires the properties (fields and methods) of an other.
+* With inheritance, we can reuse the fields and methods of the existing class. Hence, __inheritance facilitates Reusability__ and is an important concept of OOPs.
+* The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
