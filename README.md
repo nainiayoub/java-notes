@@ -27,6 +27,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
  
 * __Inheritance__
     * [Explain the concept of Inheritance?](#explain-the-concept-of-inheritance)
+    * [Which class in Java is superclass of every other class?](#which-class-in-java-is-superclass-of-every-other-class)
     
 
 # Java Basics
@@ -149,3 +150,6 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Inheritance is a proces in which one class acquires the properties (fields and methods) of an other.
 * With inheritance, we can reuse the fields and methods of the existing class. Hence, __inheritance facilitates Reusability__ and is an important concept of OOPs.
 * The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
+
+## Which class in Java is superclass of every other class?
+* The __Object class__, which is stored in the `java.lang package`, is the ultimate superclass of all Java classes. Because of this, all Java classes inherit methods from `Object`. Half of these methods are final and cannot be overridden.
