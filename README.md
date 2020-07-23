@@ -28,6 +28,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 * __Inheritance__
     * [Explain the concept of Inheritance?](#explain-the-concept-of-inheritance)
     * [Which class in Java is superclass of every other class?](#which-class-in-java-is-superclass-of-every-other-class)
+    * [Why Java does not support multiple inheritance?](#why-java-does-not-support-multiple-inheritance)
     
 
 # Java Basics
@@ -153,3 +154,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## Which class in Java is superclass of every other class?
 * The __Object class__, which is stored in the `java.lang package`, is the ultimate superclass of all Java classes. Because of this, all Java classes inherit methods from `Object`. Half of these methods are final and cannot be overridden.
+
+## Why Java does not support multiple inheritance?
+* Multiple Inheritance is a feature of object oriented concept, where a class can inherit properties of more than one parent class. The problem occurs when there exist methods with same signature in both the super classes and subclass. __On calling the method, the compiler cannot determine which class method to be called and even on calling which class method gets the priority__.
+* Multiple inheritance is not supported by Java using classes , handling the complexity that causes due to multiple inheritance is very complex. It creates problem during various operations like casting, constructor chaining etc and there are very few scenarios on which we actually need multiple inheritance, so better to omit it for keeping the things simple and straightforward.
