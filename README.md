@@ -29,6 +29,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Explain the concept of Inheritance?](#explain-the-concept-of-inheritance)
     * [Which class in Java is superclass of every other class?](#which-class-in-java-is-superclass-of-every-other-class)
     * [Why Java does not support multiple inheritance?](#why-java-does-not-support-multiple-inheritance)
+    * [In OOPS, what is meant by composition?](#in-oops-what-is-meant-by-composition)
     
 
 # Java Basics
@@ -160,3 +161,6 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Multiple inheritance is not supported by Java using classes , handling the complexity that causes due to multiple inheritance is very complex. It creates problem during various operations like casting, constructor chaining etc and there are very few scenarios on which we actually need multiple inheritance, so better to omit it for keeping the things simple and straightforward.
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+## In OOPS, what is meant by composition?
+* Composition is one of the fundamental concepts in object-oriented programming. It describes a class that references one or more objects of other classes in instance variables. This allows you to model a has-a association between objects.
