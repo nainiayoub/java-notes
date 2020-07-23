@@ -158,3 +158,5 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## Why Java does not support multiple inheritance?
 * Multiple Inheritance is a feature of object oriented concept, where a class can inherit properties of more than one parent class. The problem occurs when there exist methods with same signature in both the super classes and subclass. __On calling the method, the compiler cannot determine which class method to be called and even on calling which class method gets the priority__.
 * Multiple inheritance is not supported by Java using classes , handling the complexity that causes due to multiple inheritance is very complex. It creates problem during various operations like casting, constructor chaining etc and there are very few scenarios on which we actually need multiple inheritance, so better to omit it for keeping the things simple and straightforward.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
