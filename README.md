@@ -30,6 +30,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Which class in Java is superclass of every other class?](#which-class-in-java-is-superclass-of-every-other-class)
     * [Why Java does not support multiple inheritance?](#why-java-does-not-support-multiple-inheritance)
     * [In OOPS, what is meant by composition?](#in-oops-what-is-meant-by-composition)
+    * [If there are no pointers in Java, then why do we get NullPointerException?](#if-there-are-no-pointers-in-java-then-why-do-we-get-nullpointerexception)
     
 
 # Java Basics
@@ -164,3 +165,8 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## In OOPS, what is meant by composition?
 * Composition is one of the fundamental concepts in object-oriented programming. It describes a class that references one or more objects of other classes in instance variables. This allows you to model a has-a association between objects.
+
+## If there are no pointers in Java, then why do we get NullPointerException?
+__Java doesn’t support pointer explicitly, but it uses pointer implicitly :__ 
+* Java use pointers for manipulations of references but these pointers are not available for outside use. Any operations implicitly done by the language are actually NOT visible.
+* NullPointerException is a RuntimeException. In Java, a special null value can be assigned to an object reference. __NullPointerException is thrown when program attempts to use an object reference that has the null value__.
