@@ -35,6 +35,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is the purpose of ‘super’ keyword in Java?](#what-is-the-purpose-of-super-keyword-in-java)
     * [What is the meaning of object cloning in Java?](#what-is-the-meaning-of-object-cloning-in-java)
     
+* __Static__
+    
 
 # Java Basics
 ## What is the difference between JDK and JRE?
