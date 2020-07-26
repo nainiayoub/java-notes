@@ -30,7 +30,9 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Which class in Java is superclass of every other class?](#which-class-in-java-is-superclass-of-every-other-class)
     * [Why Java does not support multiple inheritance?](#why-java-does-not-support-multiple-inheritance)
     * [In OOPS, what is meant by composition?](#in-oops-what-is-meant-by-composition)
+    * [How aggregation and composition are different concepts?](#how-aggregation-and-composition-are-different-concepts)
     * [If there are no pointers in Java, then why do we get NullPointerException?](#if-there-are-no-pointers-in-java-then-why-do-we-get-nullpointerexception)
+    
     
 
 # Java Basics
@@ -165,6 +167,11 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## In OOPS, what is meant by composition?
 * Composition is one of the fundamental concepts in object-oriented programming. It describes a class that references one or more objects of other classes in instance variables. This allows you to model a has-a association between objects.
+
+## How aggregation and composition are different concepts?
+Both __Aggregation__ and __Composition__ are specific cases of __Association__. In both aggregation and composition object of one class owns object of another class. But there is a subtle difference : 
+* __Aggregation__ implies a relationship where the child can exist independently of the parent. Example: Class (parent) and Student (child). Delete the Class and the Student still exist. 
+* __Composition__ implies a relationship where the child cannot exist independent of the parent. Example: House (parent) and Room (child). Rooms don't exist separate to a House.
 
 ## If there are no pointers in Java, then why do we get NullPointerException?
 __Java doesn’t support pointer explicitly, but it uses pointer implicitly :__ 
