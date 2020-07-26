@@ -32,7 +32,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [In OOPS, what is meant by composition?](#in-oops-what-is-meant-by-composition)
     * [How aggregation and composition are different concepts?](#how-aggregation-and-composition-are-different-concepts)
     * [If there are no pointers in Java, then why do we get NullPointerException?](#if-there-are-no-pointers-in-java-then-why-do-we-get-nullpointerexception)
-    
+    * [What is the purpose of ‘super’ keyword in Java?](#what-is-the-purpose-of-super-keyword-in-java)
+    * [What is the meaning of object cloning in Java?](#what-is-the-meaning-of-object-cloning-in-java)
     
 
 # Java Basics
@@ -177,3 +178,12 @@ Both __Aggregation__ and __Composition__ are specific cases of __Association__. 
 __Java doesn’t support pointer explicitly, but it uses pointer implicitly :__ 
 * Java use pointers for manipulations of references but these pointers are not available for outside use. Any operations implicitly done by the language are actually NOT visible.
 * NullPointerException is a RuntimeException. In Java, a special null value can be assigned to an object reference. __NullPointerException is thrown when program attempts to use an object reference that has the null value__.
+
+## What is the purpose of ‘super’ keyword in java?
+* The super keyword refers to superclass (parent) objects. 
+* The super keyword is used to call superclass methods, and to access the superclass constructor. 
+* The most common use of the super keyword is to eliminate the confusion between superclasses and subclasses that have methods with the same name.
+
+## What is the meaning of object cloning in Java?
+* Object cloning refers to creation of exact copy of an object. It creates a new instance of the class of current object and initializes all its fields with exactly the contents of the corresponding fields of this object.
+* The class whose object’s copy is to be made must have a public clone method in it or in one of its parent class.
