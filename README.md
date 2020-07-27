@@ -36,7 +36,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is the meaning of object cloning in Java?](#what-is-the-meaning-of-object-cloning-in-java)
     
 * __Static__
-    
+    * [In Java, why do we use static variable?](#in-java-why-do-we-use-static-variable)
+    * [What is the purpose of static method in Java?](#what-is-the-purpose-of-static-method-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -189,3 +190,10 @@ __Java doesn’t support pointer explicitly, but it uses pointer implicitly :__
 ## What is the meaning of object cloning in Java?
 * Object cloning refers to creation of exact copy of an object. It creates a new instance of the class of current object and initializes all its fields with exactly the contents of the corresponding fields of this object.
 * The class whose object’s copy is to be made must have a public clone method in it or in one of its parent class.
+
+## In Java, why do we use static variable?
+* We use static variables when only one copy of the variable is required. Variables declared static are commonly shared across all instances of a class.
+* Static variables reduce the amount of memory used by a program. Static variables are shared among all instances of a class. 
+
+## What is the purpose of static method in Java?
+* We use static method when we want to provide class level access to a method, where the method should be callable without an instance of the class. Static methods don't need to be invoked on the object and that is when you use it.
