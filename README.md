@@ -193,6 +193,8 @@ __Java doesn’t support pointer explicitly, but it uses pointer implicitly :__
 * Object cloning refers to creation of exact copy of an object. It creates a new instance of the class of current object and initializes all its fields with exactly the contents of the corresponding fields of this object.
 * The class whose object’s copy is to be made must have a public clone method in it or in one of its parent class.
 
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
 # Static
 ## In Java, why do we use static variable?
 * We use static variables when only one copy of the variable is required. Variables declared static are commonly shared across all instances of a class.
