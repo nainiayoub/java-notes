@@ -38,6 +38,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 * __Static__
     * [In Java, why do we use static variable?](#in-java-why-do-we-use-static-variable)
     * [What is the purpose of static method in Java?](#what-is-the-purpose-of-static-method-in-java)
+    * [Why do we mark main method as static in Java?](#why-do-we-mark-main-method-as-static-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -198,3 +199,8 @@ __Java doesn’t support pointer explicitly, but it uses pointer implicitly :__
 
 ## What is the purpose of static method in Java?
 * We use static method when we want to provide class level access to a method, where the method should be callable without an instance of the class. Static methods don't need to be invoked on the object and that is when you use it.
+
+## Why do we mark main method as static in Java?
+* Java main() method is always static, so that compiler can call it without the creation of an object or before the creation of an object of the class.
+* If the main() is allowed to be non-static, then while calling the main() method JVM has to instantiate its class.
+* The main() method in Java must be declared public, static and void. If any of these are missing, the Java program will compile but a runtime error will be thrown.
