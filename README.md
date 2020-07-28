@@ -199,11 +199,10 @@ __Java doesn’t support pointer explicitly, but it uses pointer implicitly :__
 * Static variables reduce the amount of memory used by a program. Static variables are shared among all instances of a class. 
 
 ## Why it is not a good practice to create static variables in Java?
+Much as it’s often said that “Inheritance breaks encapsulation” statics do this in a far more severe way, by not just exposing internal implementation but also by exposing internal state.
 * The problem is when a variable can be altered by any instance of a class then the fundamental principle behind encapsulation/information hiding is lost entirely: An object is no longer in complete control of its state.
 * Any instance of the object can alter the static variable which causes ambiguity as individual instances of the object no longer have control over their own state. 
 * State changes can arbitrarily happen without knowledge of an object which relies on that state which is problematic because the object may not work correctly when this happens. 
-* __Much as it’s often said that “Inheritance breaks encapsulation” statics do this in a far more severe way, by not just exposing internal implementation but also by exposing internal state.__
-
 
 ## What is the purpose of static method in Java?
 * We use static method when we want to provide class level access to a method, where the method should be callable without an instance of the class. Static methods don't need to be invoked on the object and that is when you use it.
