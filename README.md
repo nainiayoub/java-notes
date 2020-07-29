@@ -40,6 +40,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Why it is not a good practice to create static variables in Java?](#why-it-is-not-a-good-practice-to-create-static-variables-in-java)
     * [What is the purpose of static method in Java?](#what-is-the-purpose-of-static-method-in-java)
     * [Why do we mark main method as static in Java?](#why-do-we-mark-main-method-as-static-in-java)
+    * [In what scenario do we use a static block?](#in-what-scenario-do-we-use-a-static-block)
+    * [Is it possible to execute a program without defining a main() method?](#is-it-possible-to-execute-a-program-without-defining-a-main-method)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -213,3 +215,21 @@ Much as it’s often said that “Inheritance breaks encapsulation” statics do
 * Java main() method is always static, so that compiler can call it without the creation of an object or before the creation of an object of the class.
 * If the main() is allowed to be non-static, then while calling the main() method JVM has to instantiate its class.
 * The main() method in Java must be declared public, static and void. If any of these are missing, the Java program will compile but a runtime error will be thrown.
+
+## In what scenario do we use a static block?
+* We use a static block when a class that has static members requires initialization. 
+* The code inside static block is executed only once, the first time the class is loaded into memory. 
+* Static blocks are executed before constructors.
+
+## Is it possible to execute a program without defining a main() method?
+* Yes, we can execute a JAVA program without a main method by using a __static block__.
+* In the example below, we can execute a JAVA program without a main method (works until Java 1.6 version). 
+`
+class StaticInitializationBlock{
+   static{
+      System.out.println("class without a main method");
+      System.exit(0);
+   }
+}
+`
+* Java 7 and newer versions don’t allow the execution of a JAVA program because JVM checks the presence of the main method before initializing the class.
