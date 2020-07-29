@@ -224,12 +224,12 @@ Much as it’s often said that “Inheritance breaks encapsulation” statics do
 ## Is it possible to execute a program without defining a main() method?
 * Yes, we can execute a JAVA program without a main method by using a __static block__.
 * In the example below, we can execute a JAVA program without a main method (works until Java 1.6 version). 
-`
+```
 class StaticInitializationBlock{
    static{
       System.out.println("class without a main method");
       System.exit(0);
    }
 }
-`
+```
 * Java 7 and newer versions don’t allow the execution of a JAVA program because JVM checks the presence of the main method before initializing the class.
