@@ -216,6 +216,8 @@ Much as it’s often said that “Inheritance breaks encapsulation” statics do
 * If the main() is allowed to be non-static, then while calling the main() method JVM has to instantiate its class.
 * The main() method in Java must be declared public, static and void. If any of these are missing, the Java program will compile but a runtime error will be thrown.
 
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
 ## In what scenario do we use a static block?
 * We use a static block when a class that has static members requires initialization. 
 * The code inside static block is executed only once, the first time the class is loaded into memory. 
