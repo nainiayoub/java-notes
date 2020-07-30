@@ -44,6 +44,9 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [In what scenario do we use a static block?](#in-what-scenario-do-we-use-a-static-block)
     * [Is it possible to execute a program without defining a main() method?](#is-it-possible-to-execute-a-program-without-defining-a-main-method)
     * [What happens when static modifier is not mentioned in the signature of main method?](#what-happens-when-static-modifier-is-not-mentioned-in-the-signature-of-main-method)
+    * [What is the difference between static method and instance method in Java?](#what-is-the-difference-between-static-method-and-instance-method-in-java)
+
+* __Method Overloading and Overriding__
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -255,3 +258,7 @@ class StaticInitializationBlock{
    * Static method(s) are associated to the class in which they reside. they can be called even without creating an instance of the class.
    * They are designed with aim to be shared among all Objects created from the same class.
    * They can not be overridden. But can be overloaded since they are resolved using static binding by compiler at compile time.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+# Method Overloading and Overriding
