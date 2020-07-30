@@ -42,6 +42,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Why do we mark main method as static in Java?](#why-do-we-mark-main-method-as-static-in-java)
     * [In what scenario do we use a static block?](#in-what-scenario-do-we-use-a-static-block)
     * [Is it possible to execute a program without defining a main() method?](#is-it-possible-to-execute-a-program-without-defining-a-main-method)
+    * [What happens when static modifier is not mentioned in the signature of main method?](#what-happens-when-static-modifier-is-not-mentioned-in-the-signature-of-main-method)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -235,3 +236,8 @@ class StaticInitializationBlock{
 }
 ```
 * Java 7 and newer versions don’t allow the execution of a JAVA program because JVM checks the presence of the main method before initializing the class.
+
+## What happens when static modifier is not mentioned in the signature of main method?
+* Without having declared main method static , our program will successfully compile but won't execute and report error at run time. 
+* Declaring main method static is necessary since main is called by the Java interpreter before any objects are made. 
+* Since keyword static allows main to be called without creating an object of the class in which the main method is defined, our main method needs to be declared static.
