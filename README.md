@@ -16,6 +16,7 @@ void?](#can-we-write-main-method-as-static-public-void-instead-of-public-static-
     * [In Java, if we do not specify any value for local variables, then what
 will be the default value of the local variables?](#in-java-if-we-do-not-specify-any-value-for-local-variables-then-what-will-be-the-default-value-of-the-local-variables)
     * [What is the difference between byte and char data types in Java?](#what-is-the-difference-between-byte-and-char-data-types-in-java)
+    * [What is the difference between static method and instance method in Java?](#what-is-the-difference-between-static-method-and-instance-method-in-java)
     
 * __Object-Oriented Programming System (OOPs)__
     * [What are the main principles of Object Oriented Programming?](#what-are-the-main-principles-of-object-oriented-programming)
@@ -241,3 +242,16 @@ class StaticInitializationBlock{
 * Without having declared main method static , our program will successfully compile but won't execute and report error at run time. 
 * Declaring main method static is necessary since main is called by the Java interpreter before any objects are made. 
 * Since keyword static allows main to be called without creating an object of the class in which the main method is defined, our main method needs to be declared static.
+
+## What is the difference between static method and instance method in Java?
+* __Instance methods__ are methods which require an object of its class to be created before it can be called. 
+   * To invoke a instance method, we have to create an Object of the class in within which it defined.
+   * Instance method(s) belong to the Object of the class not to the class. they can be called after creating the Object of the class.
+   * Every individual Object created from the class has its own copy of the instance method(s) of that class.
+   * They can be overridden since they are resolved using dynamic binding at run time.
+   
+* __Static methods__ are the methods in Java that can be called without creating an object of class. 
+   * They are referenced by the class name itself or reference to the Object of that class.
+   * Static method(s) are associated to the class in which they reside. they can be called even without creating an instance of the class.
+   * They are designed with aim to be shared among all Objects created from the same class.
+   * They can not be overridden. But can be overloaded since they are resolved using static binding by compiler at compile time.
