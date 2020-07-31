@@ -45,8 +45,10 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Is it possible to execute a program without defining a main() method?](#is-it-possible-to-execute-a-program-without-defining-a-main-method)
     * [What happens when static modifier is not mentioned in the signature of main method?](#what-happens-when-static-modifier-is-not-mentioned-in-the-signature-of-main-method)
     * [What is the difference between static method and instance method in Java?](#what-is-the-difference-between-static-method-and-instance-method-in-java)
+    * [How will you implement method overloading in Java?](#how-will-you-implement-method-overloading-in-java)
 
 * __Method Overloading and Overriding__
+    * [What is the other name of Method Overloading?](#what-is-the-other-name-of-method-overloading) 
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -262,3 +264,10 @@ class StaticInitializationBlock{
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 # Method Overloading and Overriding
+## What is the other name of Method Overloading?
+* Method Overloading is also known as __Compile time Polymorphism__ or static polymorphism.
+
+## How will you implement method overloading in Java?
+* We can implement method overloading in two different ways:
+   * Implementing two or more methods that have the same name but __take different numbers of arguments__.
+   * Implementing two or more methods that have the same name but __take arguments of different types__.
