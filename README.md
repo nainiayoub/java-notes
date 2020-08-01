@@ -50,6 +50,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is the other name of Method Overloading?](#what-is-the-other-name-of-method-overloading) 
     * [How will you implement method overloading in Java?](#how-will-you-implement-method-overloading-in-java)
     * [Why it is not possible to do method overloading by changing return type of method in java?](#why-it-is-not-possible-to-do-method-overloading-by-changing-return-type-of-method-in-java)
+    * [Is it allowed to overload main() method in Java?](#is-it-allowed-to-overload-main-method-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -277,3 +278,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Java can distinguish the methods with different method signatures. The methods can have same name but with different parameters list (number of the parameters, order of the parameters, and data types of the parameters) within the same class.
 * The compiler does not consider the return type while differentiating the overloaded method. But you cannot declare two methods with the same signature and different return type. It will throw a compile time error.
 * If both methods have same parameter types, but different return type, then it is not possible to do method overloading.
+
+## Is it allowed to overload main() method in Java?
+* Yes, just like anyother method in java, the main method can be overloaded in a similar manner but JVM only calls the original main method, it will never call our overloaded main method.
+* In order for the overloaded main method to be executed , we need to call it from the actual main method.
