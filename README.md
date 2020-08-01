@@ -51,6 +51,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [How will you implement method overloading in Java?](#how-will-you-implement-method-overloading-in-java)
     * [Why it is not possible to do method overloading by changing return type of method in java?](#why-it-is-not-possible-to-do-method-overloading-by-changing-return-type-of-method-in-java)
     * [Is it allowed to overload main() method in Java?](#is-it-allowed-to-overload-main-method-in-java)
+    * [How do we implement method overriding in Java?](#how-do-we-implement-method-overriding-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -282,3 +283,9 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## Is it allowed to overload main() method in Java?
 * Yes, just like anyother method in java, the main method can be overloaded in a similar manner but JVM only calls the original main method, it will never call our overloaded main method.
 * In order for the overloaded main method to be executed , we need to call it from the actual main method.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+## How do we implement method overriding in Java?
+* Overriding is a feature that allows a child class to provide a specific implementation of a method that is already provided by one of its parent classes.
+* Method Overriding is implemented when a method in a subclass has the same name, same parameters or signature, and same return type(or sub-type) as a method in its super-class, only then the method in the subclass is said to override the method in the super-class.
