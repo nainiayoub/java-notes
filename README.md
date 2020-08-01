@@ -49,6 +49,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 * __Method Overloading and Overriding__
     * [What is the other name of Method Overloading?](#what-is-the-other-name-of-method-overloading) 
     * [How will you implement method overloading in Java?](#how-will-you-implement-method-overloading-in-java)
+    * [Why it is not possible to do method overloading by changing return type of method in java?](#why-it-is-not-possible-to-do-method-overloading-by-changing-return-type-of-method-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -271,3 +272,8 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * We can implement method overloading in two different ways:
    * Implementing two or more methods that have the same name but __take different numbers of arguments__.
    * Implementing two or more methods that have the same name but __take arguments of different types__.
+
+## Why it is not possible to do method overloading by changing return type of method in java?
+* Java can distinguish the methods with different method signatures. The methods can have same name but with different parameters list (number of the parameters, order of the parameters, and data types of the parameters) within the same class.
+* The compiler does not consider the return type while differentiating the overloaded method. But you cannot declare two methods with the same signature and different return type. It will throw a compile time error.
+* If both methods have same parameter types, but different return type, then it is not possible to do method overloading.
