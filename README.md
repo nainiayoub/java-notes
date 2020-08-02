@@ -52,6 +52,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Why it is not possible to do method overloading by changing return type of method in java?](#why-it-is-not-possible-to-do-method-overloading-by-changing-return-type-of-method-in-java)
     * [Is it allowed to overload main() method in Java?](#is-it-allowed-to-overload-main-method-in-java)
     * [How do we implement method overriding in Java?](#how-do-we-implement-method-overriding-in-java)
+    * [Why Java does not allow overriding a static method?](#why-java-does-not-allow-overriding-a-static-method)
+    * [Is it allowed to override an overloaded method?](#is-it-allowed-to-override-an-overloaded-method)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -289,3 +291,12 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## How do we implement method overriding in Java?
 * Overriding is a feature that allows a child class to provide a specific implementation of a method that is already provided by one of its parent classes.
 * Method Overriding is implemented when a method in a subclass has the same name, same parameters or signature, and same return type(or sub-type) as a method in its super-class, only then the method in the subclass is said to override the method in the super-class.
+
+## Why Java does not allow overriding a static method?
+* Java doesn't allow overriding a static method even though we can declare static methods with same signature in subclass, but it is not considered overriding as there won’t be any run-time polymorphism.
+* If a derived class defines a static method with same signature as a static method in base class, the method in the derived class hides the method in the base class.
+
+## Is it allowed to override an overloaded method?
+* A method can be an override for an overloaded method in a superclass. And you can overload a method that you are simultaneously overriding using another method. 
+* You cannot have one method that is both a new overload and an override. 
+* For a method to be an override, another method with the same signature must already exist in the superclass, and that means that this method cannot be a new override.
