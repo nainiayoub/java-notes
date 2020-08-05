@@ -54,6 +54,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [How do we implement method overriding in Java?](#how-do-we-implement-method-overriding-in-java)
     * [Why Java does not allow overriding a static method?](#why-java-does-not-allow-overriding-a-static-method)
     * [Is it allowed to override an overloaded method?](#is-it-allowed-to-override-an-overloaded-method)
+    * [What is the difference between method overloading and method overriding in Java?](#what-is-the-difference-between-method-overloading-and-method-overriding-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -300,3 +301,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * A method can be an override for an overloaded method in a superclass. And you can overload a method that you are simultaneously overriding using another method. 
 * You cannot have one method that is both a new overload and an override. 
 * For a method to be an override, another method with the same signature must already exist in the superclass, and that means that this method cannot be a new override.
+
+## What is the difference between method overloading and method overriding in Java?
+* The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. 
+* __Overriding__ is all about giving a specific implementation to the inherited method of parent class while method __Overloading__ is about allowing a class to have more than one method having the same name, if their argument lists are different.
