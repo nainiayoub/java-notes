@@ -55,6 +55,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Why Java does not allow overriding a static method?](#why-java-does-not-allow-overriding-a-static-method)
     * [Is it allowed to override an overloaded method?](#is-it-allowed-to-override-an-overloaded-method)
     * [What is the difference between method overloading and method overriding in Java?](#what-is-the-difference-between-method-overloading-and-method-overriding-in-java)
+    * [What is meant by covariant return type in Java?](#what-is-meant-by-covariant-return-type-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -305,3 +306,8 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## What is the difference between method overloading and method overriding in Java?
 * The most basic difference is that overloading is being done in the same class while for overriding base and child classes are required. 
 * __Overriding__ is all about giving a specific implementation to the inherited method of parent class while method __Overloading__ is about allowing a class to have more than one method having the same name, if their argument lists are different.
+
+## What is meant by covariant return type in Java?
+* Covariant return type refers to return type of an overriding method. It allows to narrow down return type of an overridden method without any need to cast the type or check the return type. 
+* Covariant return type in java means that overriding method can return SubClass.
+* Covariant return type works only for non-primitive return types.
