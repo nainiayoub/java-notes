@@ -56,6 +56,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Is it allowed to override an overloaded method?](#is-it-allowed-to-override-an-overloaded-method)
     * [What is the difference between method overloading and method overriding in Java?](#what-is-the-difference-between-method-overloading-and-method-overriding-in-java)
     * [What is meant by covariant return type in Java?](#what-is-meant-by-covariant-return-type-in-java)
+    
+* __Polymorphism__ 
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -311,3 +313,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Covariant return type refers to return type of an overriding method. It allows to narrow down return type of an overridden method without any need to cast the type or check the return type. 
 * Covariant return type in java means that overriding method can return SubClass.
 * Covariant return type works only for non-primitive return types.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+# Polymorphism
