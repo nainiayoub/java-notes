@@ -58,6 +58,9 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is meant by covariant return type in Java?](#what-is-meant-by-covariant-return-type-in-java)
     
 * __Polymorphism__ 
+    * [What is Runtime Polymorphism?](#what-is-runtime-polymorphism)
+    * [Is it possible to achieve Runtime Polymorphism by data members in Java?](#is-it-possible-to-achieve-runtime-polymorphism-by-data-members-in-java)
+    * [Explain the difference between static and dynamic binding?](#explain-the-difference-between-static-and-dynamic-binding)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -317,3 +320,15 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 # Polymorphism
+## What is Runtime Polymorphism?
+* __Run-time Polymorphism__, also known as __Dynamic Method Dyspatch__, is a process in which a call to an overridden method is resolved at runtime rather than compile-time. 
+* Method invocation is determined by JVM not compiler
+
+## Is it possible to achieve Runtime Polymorphism by data members in Java?
+* A method is overridden, not the data members, so runtime polymorphism can't be achieved by data members. 
+
+## Explain the difference between static and dynamic binding?
+If linking between method call and method implementation is resolved at compile time then we call it __static binding__ or if it is resolved at run time then it __dynamic binding__.
+* __Static Binding__ happens at compile time while __Dynamic Binding__ happens at runtime.
+* __Static binding__ uses type of the class and fields but __Dynamic binding__ uses object to resolve binding. 
+* Overloading is an example of static binding while Method overriding is the example of Dynamic binding.
