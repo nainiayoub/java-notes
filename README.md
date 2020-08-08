@@ -355,3 +355,5 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## What is an abstract class in Java?
+* __Abstract class__ is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+*  __In Java, we can have an abstract class without any abstract method__. This allows us to create classes that cannot be instantiated, but can only be inherited. 
