@@ -63,6 +63,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Explain the difference between static and dynamic binding?](#explain-the-difference-between-static-and-dynamic-binding)
     
 * __Abstraction__ 
+    * [What is Abstraction in Object Oriented programming?](#what-is-abstraction-in-object-oriented-programming)
+    * [How is Abstraction different from Encapsulation?](#how-is-Abstraction-different-from-encapsulation)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -338,3 +340,14 @@ If linking between method call and method implementation is resolved at compile 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 # Abstraction
+## What is Abstraction in Object Oriented programming?
+* __Abstraction__ is one of the key concepts of object-oriented programming languages. 
+* Its main goal is to __handle complexity by hiding unnecessary details from the user__. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
+* Objects in an OOP languages provide an abstraction that hides the internal implementation details, you just need to know which methods of the object are available to call and which input parameters are needed to trigger a specific operation. But you don’t need to understand how this method is implemented and which kinds of actions it has to perform to create the expected result.
+
+## How is Abstraction different from Encapsulation?
+<img src="https://www.topjavatutorial.com/wp-content/uploads/2017/02/Abstraction-and-Encapsulation-new.jpg"><br/>
+* __Abstraction__ hides details at the design level, while __Encapsulation__ hides details at the implementation level.
+* __Abstraction__ lets you focus on what the object does instead of how it does it, while __Encapsulation__ means hiding the internal details of how an object works.
+* __Abstraction__ is about hiding unwanted details while giving out the most essential details, while __Encapsulation__ means hiding the code and data into a single unit e.g. class or method to protect the inner working of an object from the outside world.
+
