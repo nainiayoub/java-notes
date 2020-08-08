@@ -65,6 +65,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 * __Abstraction__ 
     * [What is Abstraction in Object Oriented programming?](#what-is-abstraction-in-object-oriented-programming)
     * [How is Abstraction different from Encapsulation?](#how-is-Abstraction-different-from-encapsulation)
+    * [What is an abstract class in Java?](#what-is-an-abstract-class-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -351,3 +352,6 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * __Abstraction__ lets you focus on what the object does instead of how it does it, while __Encapsulation__ means hiding the internal details of how an object works.
 * __Abstraction__ is about hiding unwanted details while giving out the most essential details, while __Encapsulation__ means hiding the code and data into a single unit e.g. class or method to protect the inner working of an object from the outside world.
 
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+## What is an abstract class in Java?
