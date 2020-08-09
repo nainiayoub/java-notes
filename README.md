@@ -66,6 +66,10 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is Abstraction in Object Oriented programming?](#what-is-abstraction-in-object-oriented-programming)
     * [How is Abstraction different from Encapsulation?](#how-is-Abstraction-different-from-encapsulation)
     * [What is an abstract class in Java?](#what-is-an-abstract-class-in-java)
+    * [Is it allowed to mark a method abstract as well as final?](#is-it-allowed-to-mark-a-method-abstract-as-well-as-final)
+    * [Can we instantiate an abstract class in Java?](#can-we-instantiate-an-abstract-class-in-java)
+    * [What is an interface in Java?](#what-is-an-interface-in-java)
+    * [Is it allowed to mark an interface method as static?](#is-it-allowed-to-mark-an-interface-method-as-static)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -357,3 +361,19 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## What is an abstract class in Java?
 * __Abstract class__ is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
 *  __In Java, we can have an abstract class without any abstract method__. This allows us to create classes that cannot be instantiated, but can only be inherited. 
+
+## Is it allowed to mark a method abstract as well as final?
+* No, you cannot make an abstract method final in Java.
+* An abstract method must be overridden to be useful and called but when you make the abstract method final it cannot be overridden in Java, hence there would be no way to use that method.
+* Making an abstract method final in Java will result in a compile-time error. In short, the use of keywords abstract and final together is illegal in Java. 
+
+## Can we instantiate an abstract class in Java?
+* Abstract classes cannot be instantiated, but they can be subclassed.
+
+## What is an interface in Java?
+* __An interface is a completely "abstract class"__ that is used to group related methods with empty bodies.
+   * Like abstract classes, __interfaces cannot be used to create objects__.
+   * Interface methods do not have a body.
+   * An interface cannot contain a constructor (as it cannot be used to create objects).
+   
+## Is it allowed to mark an interface method as static? 
