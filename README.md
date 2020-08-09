@@ -372,8 +372,8 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## What is an interface in Java?
 * __An interface is a completely "abstract class"__ that is used to group related methods with empty bodies.
-   * Like abstract classes, __interfaces cannot be used to create objects__.
-   * Interface methods do not have a body.
-   * An interface cannot contain a constructor (as it cannot be used to create objects).
+* Like abstract classes, __interfaces cannot be used to create objects__.
+* Interface methods do not have a body.
+* An interface cannot contain a constructor (as it cannot be used to create objects).
    
 ## Is it allowed to mark an interface method as static? 
