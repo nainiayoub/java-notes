@@ -70,6 +70,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Can we instantiate an abstract class in Java?](#can-we-instantiate-an-abstract-class-in-java)
     * [What is an interface in Java?](#what-is-an-interface-in-java)
     * [Is it allowed to mark an interface method as static?](#is-it-allowed-to-mark-an-interface-method-as-static)
+    * [Why an Interface cannot be marked as final in Java?](#why-an-interface-cannot-be-marked-as-final-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -377,3 +378,10 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * An interface cannot contain a constructor (as it cannot be used to create objects).
    
 ## Is it allowed to mark an interface method as static? 
+* Prior to java 8, interface in java can only have abstract methods. All the methods of interfaces are public & abstract by default.
+* Java 8 allows the interfaces to have default and static methods.
+* We can safely add static methods to the existing interfaces without changing the code in the implementation classes. Since these methods are static, we cannot override them in the implementation classes.
+
+## Why an Interface cannot be marked as final in Java?
+* If you make an interface final, you cannot implement its methods which defies the very purpose of the interfaces. Therefore, you cannot make an interface final in Java. 
+* If you try to make an interface final, a compile time exception is generated saying “illegal combination of modifiers − interface and final”.
