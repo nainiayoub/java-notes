@@ -71,6 +71,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is an interface in Java?](#what-is-an-interface-in-java)
     * [Is it allowed to mark an interface method as static?](#is-it-allowed-to-mark-an-interface-method-as-static)
     * [Why an Interface cannot be marked as final in Java?](#why-an-interface-cannot-be-marked-as-final-in-java)
+    * [What is a marker interface?](#what-is-a-marker-interface)
+    * [What is the difference between abstract class and interface in Java?](#what-is-the-difference-between-abstract-class-and-interface-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -385,3 +387,18 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## Why an Interface cannot be marked as final in Java?
 * If you make an interface final, you cannot implement its methods which defies the very purpose of the interfaces. Therefore, you cannot make an interface final in Java. 
 * If you try to make an interface final, a compile time exception is generated saying “illegal combination of modifiers − interface and final”.
+
+## What is a marker interface?
+* Marker Interface is an empty interface (no field or methods).
+* Examples of Marker Interface are:
+   * Cloneable Interface.
+   * Serializable Interface.
+   * Remote Interface.
+
+## What is the difference between abstract class and interface in Java?
+1. __Interface__ can have only abstract methods. __Abstract class__ can have abstract and non-abstract methods. From Java 8, it can have default and static methods also.
+2. Variables declared in a Java __Interface__ are by default final. An __Abstract class__ may contain non-final variables.
+3. __Abstract class__ can have final, non-final, static and non-static variables. __Interface__ has only static and final variables.
+4. __Abstract class__ can provide the implementation of interface. __Interface__ can’t provide the implementation of abstract class.
+5. An __Interface__ can extend another Java interface only, an __Abstract class__ can extend another Java class and implement multiple Java interfaces.
+7. Members of a Java __Interface__ are public by default. A Java __Abstract class__ can have class members like private, protected, etc.
