@@ -379,6 +379,8 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Interface methods do not have a body.
 * An interface cannot contain a constructor (as it cannot be used to create objects).
    
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)   
+   
 ## Is it allowed to mark an interface method as static? 
 * Prior to java 8, interface in java can only have abstract methods. All the methods of interfaces are public & abstract by default.
 * Java 8 allows the interfaces to have default and static methods.
@@ -402,3 +404,5 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 4. __Abstract class__ can provide the implementation of interface. __Interface__ can’t provide the implementation of abstract class.
 5. An __Interface__ can extend another Java interface only, an __Abstract class__ can extend another Java class and implement multiple Java interfaces.
 7. Members of a Java __Interface__ are public by default. A Java __Abstract class__ can have class members like private, protected, etc.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
