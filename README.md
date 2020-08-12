@@ -73,7 +73,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Why an Interface cannot be marked as final in Java?](#why-an-interface-cannot-be-marked-as-final-in-java)
     * [What is a marker interface?](#what-is-a-marker-interface)
     * [What is the difference between abstract class and interface in Java?](#what-is-the-difference-between-abstract-class-and-interface-in-java)
-    * [Does Java allow us to use private and protected modifiers for variables in interfaces?](#does-java-allow-us-to-use-private-and-protected-modifiers-for-variables-in-interfaces)
+    * [Does Java allow us to use private and protected modifiers for variables in interfaces?](#does-java-allow-us-to-use-private-and-protected-modifiers-in-interfaces)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
