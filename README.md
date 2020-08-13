@@ -78,6 +78,10 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     
 * __Final__ 
     * [How can you change the value of a final variable in Java?](#how-can-you-change-the-value-of-a-final-variable-in-java)
+    * [Can a class be marked final in Java?](#can-a-class-be-marked-final-in-java)
+    * [How can we create a final method in Java?](#how-can-we-create-a-final-method-in-java)
+    * [How can we prohibit inheritance in Java?](#How can we prohibit inheritance in Java?)
+    * [What is a blank final variable in Java?](#what-is-a-blank-final-variable-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -422,3 +426,25 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 # Final
 ## How can you change the value of a final variable in Java?
+* Final variable in Java cannot be changed. Once if we have assigned the final variable it can not be changed it is fixed. but if you have declare a blank final variable then you can assign value to it only in constructor. also using hiearchical instances can come handy.
+
+## Can a class be marked final in Java?
+* You can declare an entire class final. 
+* A class that is declared final cannot be subclassed. 
+
+## How can we create a final method in Java?
+* You can declare some or all of a class's methods final. 
+* You use the final keyword in a method declaration to indicate that the method cannot be overridden by subclasses.
+
+## How can we prohibit inheritance in Java?
+* You can prevent a class from being subclassed by using the final keyword in the class's declaration. 
+* Similarly, you can prevent a method from being overridden by subclasses by declaring it as a final method.
+
+## What is a blank final variable in Java?
+* A blank final variable in Java is a final variable that is not initialized during declaration. 
+* Example:
+```
+// A simple blank final example 
+    final int i;
+    i = 30;
+```
