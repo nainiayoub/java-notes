@@ -80,7 +80,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [How can you change the value of a final variable in Java?](#how-can-you-change-the-value-of-a-final-variable-in-java)
     * [Can a class be marked final in Java?](#can-a-class-be-marked-final-in-java)
     * [How can we create a final method in Java?](#how-can-we-create-a-final-method-in-java)
-    * [How can we prohibit inheritance in Java?](#How can we prohibit inheritance in Java?)
+    * [How can we prohibit inheritance in Java?](#how-can-we-prohibit-inheritance-in-java)
     * [What is a blank final variable in Java?](#what-is-a-blank-final-variable-in-java)
 
 # Java Basics
