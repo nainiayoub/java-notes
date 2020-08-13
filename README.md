@@ -76,7 +76,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Does Java allow us to use private and protected modifiers for variables in interfaces?](#does-java-allow-us-to-use-private-and-protected-modifiers-in-interfaces)
     * [How can we cast to an object reference to an interface reference?](#how-can-we-cast-to-an-object-reference-to-an-interface-reference)
     
-* __Final__    
+* __Final__ 
+    * [How can you change the value of a final variable in Java?](#how-can-you-change-the-value-of-a-final-variable-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -418,3 +419,6 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * If you implement an interface and provide body to its methods from a class. You can hold object of the that class using the reference variable of the interface that is cast an object reference to an interface reference. 
    * Using this you can access the methods of the interface only, if you try to access the methods of the class a compile time error is generated.
 * You need to cast an object reference to an interface reference. Whenever you need to call the methods of the interface only.
+
+# Final
+## How can you change the value of a final variable in Java?
