@@ -82,6 +82,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [How can we create a final method in Java?](#how-can-we-create-a-final-method-in-java)
     * [How can we prohibit inheritance in Java?](#how-can-we-prohibit-inheritance-in-java)
     * [What is a blank final variable in Java?](#what-is-a-blank-final-variable-in-java)
+    * [Is it allowed to declare main method as final?](#is-it-allowed-to-declare-main-method-as-final)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -448,6 +449,8 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
     final int i;
     i = 30;
 ```
+## Is it allowed to declare main method as final?
+* Yes, we can declare the main () method as final in Java. The compiler does not throw any error.
+* While it is possible, it is not really meaningful. final methods can not be overriden. But static methods cant anyways.
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
-
