@@ -84,6 +84,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is a blank final variable in Java?](#what-is-a-blank-final-variable-in-java)
     * [Is it allowed to declare main method as final?](#is-it-allowed-to-declare-main-method-as-final)
 
+* __Package__
+
 # Java Basics
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -454,3 +456,5 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * While it is possible, it is not really meaningful. final methods can not be overriden. But static methods cant anyways.
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+# Package
