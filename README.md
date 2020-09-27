@@ -86,6 +86,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 
 * __Package__
     * [What is the purpose of package in Java?](#what-is-the-purpose-of-package-in-java)
+    * [What is java.lang package?](#what-is-java.lang-package)
+    * [Which is the most important class in Java?](#which-is-the-most-important-class-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -462,3 +464,11 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## What is the purpose of package in Java?
 * A package in Java is used to group related classes. Think of it as a folder in a file directory. 
 * We use packages to avoid name conflicts, to control access, to make searching/locating and usage of classes, interfaces, enumerations and annotations easier, and to write a better maintainable code.
+
+## What is java.lang package?
+* The java.lang package provides classes that are fundamental to the design of the Java programming language.
+
+## Which is the most important class in Java?
+* The most important class is Object, which is the root of the class hierarchy.
+* Every java class is a subclass of Object. It contains the important methods like equals, hashcode, clone, toString, etc. 
+* It is available from day one of java (JDK 1.0)
