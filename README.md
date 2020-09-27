@@ -481,3 +481,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 ## Can you import same package or class twice in your class?
 * Yes, you can import a package or a class multiple times. It doesn't create any issues.
 * The JVM will internally load the class and/or package only once no matter how many times you import the same class and/or the package.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+
