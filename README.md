@@ -88,6 +88,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is the purpose of package in Java?](#what-is-the-purpose-of-package-in-java)
     * [What is java.lang package?](#what-is-java.lang-package)
     * [Which is the most important class in Java?](#which-is-the-most-important-class-in-java)
+    * [Is it mandatory to import java.lang package every time?](#is-it-mandatory-to-import-java.lang-package-every-time)
+    * [Can you import same package or class twice in your class?](#can-you-import-same-package-or-class-twice-in-your-class)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -472,3 +474,10 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * The most important class is Object, which is the root of the class hierarchy.
 * Every java class is a subclass of Object. It contains the important methods like equals, hashcode, clone, toString, etc. 
 * It is available from day one of java (JDK 1.0)
+
+## Is it mandatory to import java.lang package every time?
+* No, java.lang package is a default package in Java therefore, there is no need to import it explicitly.
+
+## Can you import same package or class twice in your class?
+* Yes, you can import a package or a class multiple times. It doesn't create any issues.
+* The JVM will internally load the class and/or package only once no matter how many times you import the same class and/or the package.
