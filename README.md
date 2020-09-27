@@ -84,6 +84,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is a blank final variable in Java?](#what-is-a-blank-final-variable-in-java)
     * [Is it allowed to declare main method as final?](#is-it-allowed-to-declare-main-method-as-final)
 
+* __Package__
+    * [What is the purpose of package in Java?](what-is-the-purpose-of-package-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -456,3 +458,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
+# Package
+## What is the purpose of package in Java?
+* A package in Java is used to group related classes. Think of it as a folder in a file directory. 
+* We use packages to avoid name conflicts, to control access, to make searching/locating and usage of classes, interfaces, enumerations and annotations easier, and to write a better maintainable code.
