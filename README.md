@@ -90,7 +90,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Which is the most important class in Java?](#which-is-the-most-important-class-in-java)
     * [Is it mandatory to import java.lang package every time?](#is-it-mandatory-to-import-java.lang-package-every-time)
     * [Can you import same package or class twice in your class?](#can-you-import-same-package-or-class-twice-in-your-class)
-    * [What is a static import in Java?](#What is a static import in Java?)
+    * [What is a static import in Java?](#what-is-a-static-import-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
