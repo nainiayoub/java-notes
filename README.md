@@ -85,7 +85,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Is it allowed to declare main method as final?](#is-it-allowed-to-declare-main-method-as-final)
 
 * __Package__
-    * [What is the purpose of package in Java?](what-is-the-purpose-of-package-in-java)
+    * [What is the purpose of package in Java?](#what-is-the-purpose-of-package-in-java)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
