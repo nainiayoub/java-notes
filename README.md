@@ -90,6 +90,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [Which is the most important class in Java?](#which-is-the-most-important-class-in-java)
     * [Is it mandatory to import java.lang package every time?](#is-it-mandatory-to-import-java.lang-package-every-time)
     * [Can you import same package or class twice in your class?](#can-you-import-same-package-or-class-twice-in-your-class)
+    * [What is a static import in Java?](#What is a static import in Java?)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -484,4 +485,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
-
+## What is a static import in Java?
+* Static import is a feature introduced in the Java programming language that allows members (fields and methods) which have been scoped within their container class as `public static` , to be used in Java code without specifying the class in which the field has been defined.
+* __Example:__ <br/>
+`We always use sqrt() method of Math class by using Math class i.e. Math.sqrt(), but by using static import we can access sqrt() method directly.`
