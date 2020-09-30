@@ -160,7 +160,7 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * In Java, __`main`__ is the name of Java main method. It is the identifier that the JVM looks for as the starting point of the java program. __It’s not a keyword__. 
 
 ## Can we write main method as static public void instead of public static void?
-* If you write `static public void main` instead of `public static void main`, then it will make no difference. Program compiles properly and runs. But if you change the sequence of main, then it will you give a compiler error.
+* If you write `static public void main` instead of `public static void main`, then it will make no difference. Program compiles properly and runs. But if you change the sequence of main, then it will give you a compiler error.
 * In Java, __we can declare access modifiers in any order__, the method name comes last, the return type comes second to last and then after it's our choice. But __it's recommended to put access modifier (public, private and protected) at the forefront as per Java coding standards__.
 
 ## In Java, if we do not specify any value for local variables, then what will be the default value of the local variables?
@@ -177,7 +177,11 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 # Object-Oriented Programming System (OOPs)
 ## What are the main principles of Object Oriented Programming?
-* There are 4 major principles that make a language Object Oriented. These are __Encapsulation__, __Data Abstraction__, __Polymorphism__ and __Inheritance__. 
+* There are 4 major principles that make a language Object Oriented:
+   * __Encapsulation__ 
+   * __Data Abstraction__
+   * __Polymorphism__
+   * __Inheritance__
 
 ## What is the difference between Object-Oriented Programming language and Object Based Programming language?
 In computer science, the term object-based has two different senses:
