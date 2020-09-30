@@ -94,6 +94,8 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     
 * __Serialization__
     * [What is Serialization?](#What-is-serialization)
+    * [What is the purpose of serialization?](#what-is-the-purpose-of-serialization)
+    * [What is Deserialization?](#what-is-deserialization)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -498,5 +500,11 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 `We always use sqrt() method of Math class by using Math class i.e. Math.sqrt(), but by using static import we can access sqrt() method directly.`
 
 # Serialization
-## What is Serialization?
-* Serialization is a process used to convert the state of an object into a byte stream, which can be persisted into disk/file or sent over the network to any other running (Java Virtual Machine)(#what-is-java-virtual-machine-jvm).
+## What is serialization?
+* Serialization is a process used to convert the state of an object into a byte stream, which can be persisted into disk/file or sent over the network to any other running [Java Virtual Machine](#what-is-java-virtual-machine-jvm). 
+
+## What is the purpose of serialization?
+* The main purpose of serialization is to save the state of an object in order to be able to recreate it when needed, providing storage of objects as well as data exchange.
+
+## What is Deserialization?
+* Deserialization is the reverse process of Serialization where the byte stream is used to recreate the actual Java object in memory. 
