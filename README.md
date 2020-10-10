@@ -100,6 +100,9 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is Externalizable interface in Java?](#what-is-externalizable-interface-in-java)
     * [What is the difference between Serializable and Externalizable interface?](#what-is-the-difference-between-serializable-and-externalizable-interface)
 
+* __Garbage Collection__
+    * [What is Garbage Collection in Java?](#what-is-garbage-collection-in-java)
+
 # Java Basics
 ## What is the difference between JDK and JRE?
 <img src="https://devops.com.vn/wp-content/uploads/2018/07/jdk_jre_jvm.png" alt="Description of Java Conceptual Diagram"><br/>
@@ -524,3 +527,10 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 * Serializable is a __marker interface__, it does not contain any method but Externalizable interface contains two methods writeExternal() and readExternal().
 * The other difference is __performance__, you can not do much to improve performance of default serialization process except reducing number of fields to be serialized by using transient and static keyword but with Externalizable interface you have __full control__ over Serialization process.
 * When the Serializable interface is implemented, the default constructor is not called during Deserialization, while it is called during the DeSerialization process if Externalizable has been implemented.
+
+__Back to Top__ :point_up: [Table of contents](#table-of-contents)
+
+# Garbage Collection
+## What is Garbage Collection in Java?
+* Java Garbage Collection is the process by which Java programs perform automatic memory management.
+* The garbage collector finds the unused objects and deletes them to free up memory.
