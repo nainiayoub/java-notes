@@ -96,6 +96,9 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
     * [What is Serialization?](#What-is-serialization)
     * [What is the purpose of serialization?](#what-is-the-purpose-of-serialization)
     * [What is Deserialization?](#what-is-deserialization)
+    * [Why do we mark a data member transient?](#why-do-we-mark-a-data-member-transient)
+    * [What is Externalizable interface in Java?](#what-is-externalizable-interface-in-java)
+    * [What is the difference between Serializable and Externalizable interface?](#what-is-the-difference-between-serializable-and-externalizable-interface)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -508,3 +511,16 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 
 ## What is Deserialization?
 * Deserialization is the reverse process of Serialization where the byte stream is used to recreate the actual Java object in memory. 
+
+## Why do we mark a data member transient?
+* At the time of serialization, if we don’t want to save the value of a particular variable in a file, then we use transient keyword.
+* When [JVM](#what-is-java-virtual-machine-jvm) comes across transient keyword, it ignores original value of the variable and save default value of that variable data type.
+
+## What is Externalizable interface in Java?
+* The Externalizable interface provides control over the serialization process.
+* The Externalizable interface supplies two methods, called _readExternal()_ and _writeExternal()_, where we can write our own set of serialization rules.
+
+## What is the difference between Serializable and Externalizable interface?
+* Serializable is a __marker interface__, it does not contain any method but Externalizable interface contains two methods writeExternal() and readExternal().
+* The other difference is __performance__, you can not do much to improve performance of default serialization process except reducing number of fields to be serialized by using transient and static keyword but with Externalizable interface you have __full control__ over Serialization process.
+* When the Serializable interface is implemented, the default constructor is not called during Deserialization, while it is called during the DeSerialization process if Externalizable has been implemented.
