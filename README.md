@@ -102,6 +102,7 @@ will be the default value of the local variables?](#in-java-if-we-do-not-specify
 
 * __Garbage Collection__
     * [What is Garbage Collection in Java?](#what-is-garbage-collection-in-java)
+    * [Why Java provides Garbage Collector?](#why-java-provides-garbage-collector)
 
 # Java Basics
 ## What is the difference between JDK and JRE?
@@ -533,4 +534,6 @@ __Back to Top__ :point_up: [Table of contents](#table-of-contents)
 # Garbage Collection
 ## What is Garbage Collection in Java?
 * Java Garbage Collection is the process by which Java programs perform automatic memory management.
-* The garbage collector finds the unused objects and deletes them to free up memory.
+
+## Why Java provides Garbage Collector?
+* Java provides the Garbage Collector to find the unused objects and deletes them to free up memory so that Java application developers are not burdened with having to explicitly free memory objects that are not being used.
